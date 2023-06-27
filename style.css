@@ -1,0 +1,370 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+background-image: linear-gradient(rgba(41,41,41, 0.5), rgba(37,37,37, 0.9)), url("images/hero.jpg");
+background-repeat: no-repeat;
+background-size: auto auto;
+height: 100vh;
+}
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.grid-container{
+    padding: 1rem 20rem ;
+}
+.hero-description{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.hero-description h1 {
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+.hero-description h3 {
+    margin: 1rem 2rem 2rem 0rem;
+}
+.hero-description p {
+    margin-bottom: 1rem;
+}
+.logo{
+width: 150px;
+
+}
+.select-idioma{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.321);
+    padding: 8px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    margin-right: 1rem;
+}
+#login-button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#email {
+    padding: 1rem 6rem;
+    border: 1px solid rgba(255, 255, 255, 0.493);
+    border-radius: 5px;
+    background-color: rgba(22, 22, 22, 0.516);
+    color: white;
+    
+}
+.botao-azul{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+#label-email{
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.426);
+}
+.hero-description form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hero-description form span{
+    display: none;
+}
+.btn-assinar{
+    padding: 0.7rem 1.4rem;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:red;
+    margin-left: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.btn-assinar:hover, #login-button:hover {
+    background-color: red;
+    transition: .2s;
+}
+.aproveite-tv{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 450px;
+    position: relative;
+    align-items: center;
+}
+.aproveite-tv div h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.aproveite-tv div p{
+    font-size: 1.5rem;
+    width: 94%;
+    margin-top: 1rem;
+}
+.preview-video{
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+}
+.border-section{
+    border-bottom: 8px solid rgb(72, 72, 72);
+}
+.beneficios-content div h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.beneficios-content div p{
+    font-size: 1.5rem;
+    width: 94%;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.beneficios-content{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 4rem;
+}
+.orientation-tv-video{
+    top: 90px;
+    left: 53.6%;
+}
+#orientation-devices-video{
+    top: 80px;
+    left: 23%;
+    width: 365px;
+}
+.devices-image{
+    width: 600px;
+    margin-top: 2rem;
+}
+#card-device{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(72, 72, 72);
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    background-color: black;
+}
+#card-device img{
+    width: 60px;
+    margin-right: 1rem;
+}
+#card-device div p{
+    font-size: 14px;
+    color: #0071eb;
+    margin-top: 0px;
+}
+figure{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.animation {
+    background: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif') center center no-repeat;
+    width: 3rem;
+    height: 3rem;
+    background-size: 100%;
+}
+.question-section h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+
+.question-section ul li button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    padding: 1.5rem;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 8px;
+}
+.question-section ul li button:hover{
+    background-color: rgb(80, 80, 80);
+    transition: .4s;
+}
+.question-section ul li p {
+    background-color: rgb(40, 40, 40);
+    margin-top: 1px;
+    padding: 1rem;
+    font-size: 20px;
+}
+.question-section ul li button span{
+    font-size: 18px;
+}
+.question-section form{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.question-section form p{
+    margin: 3rem 0 2rem;
+    font-size: 20px;
+}
+#footer-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+#footer-links ul li a{
+    color: rgb(255, 255, 255, 0.683);
+}
+footer, footer a, #footer-links > ul > li > a{
+    color: rgba(255, 255, 255, 0.683);
+}
+footer{
+    padding: 4rem 20rem;
+}
+#footer-links ul li{
+    margin-bottom: 1rem;
+}
+footer p:nth-child(4), footer select{
+    padding-top: 2rem;
+}
+.question-section ul li details summary{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: rgba(40,40,40);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 8px;
+}
+.question-section ul li details summary span:nth-child(2){
+    font-size: 2.5rem;
+    transform: rotate(0);
+    transform-origin: center;
+    transition: 0.2s transform ease;
+}
+.question-section ul li details[open] > summary > span:nth-child(2){
+    transform: rotate(45deg);
+    transition: 0.4s transform ease;
+}
+.question-sections ul li details summary:hover{
+    background-color: rgba(80,80,80);
+    transition: 4s;
+}
+
+.tab{
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.accordion{
+    overflow: hidden;
+/*versao para cell*/
+}
+footer p:nth-child(4), footer select{
+    padding-top: 2rem;
+}
+
+@media (max-width: 789px){
+    .grid-container{
+    padding: 1rem;
+    }
+    .hero-description{
+        text-align: center;
+    }
+    .hero-description form{
+        display: block;
+    }
+    .beneficios-content{
+        flex-direction: column;
+    }
+    #orientation-tv-video{
+        width: 305px;
+        height: 165px;
+        top: 164px;
+        left: 12%;
+    }
+    #orientation-devices-video{
+        left: 19%;
+        width: 244px;
+        height: 154px;
+        top: 213px;
+    }
+    .devices-image{
+        width: 380px;
+    }
+    .desenho-image{
+        width: 380px;
+    }
+    .phone-image{
+        width: 360px;
+    }
+    footer{
+        padding: 2rem 4rem;
+    }
+    .tv-image{
+        width: 333px;
+    }
+    .hero-description h1 {
+        font-size: 2rem;
+    }
+    .btn-assinar{
+        margin-top: 1rem;
+    }
+    .beneficios-content div h2{
+        font-size: 2rem;
+    }
+    .reverse-content{
+        flex-direction: column-reverse;
+        padding-bottom: 3rem;
+    }
+    #card-device{
+        width: 65%;
+    }
+    #footer-links{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1281px){
+    .grid-container{
+        padding: 3rem;}
+}
+ 
+
